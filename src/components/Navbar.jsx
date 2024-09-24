@@ -18,16 +18,36 @@ const Navbar = () => {
         >
           <ul className="mt-5 ml-5 md:m-0 flex flex-col gap-5 md:flex-row">
             <li>
-              <a href="#">Home</a>
+              <a
+                className="duration-300 transition-all hover:text-cyan-400"
+                href="#"
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a href="#">Explore</a>
+              <a
+                className="duration-300 transition-all hover:text-cyan-400"
+                href="#card-section"
+              >
+                Explore
+              </a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a
+                className="duration-300 transition-all hover:text-cyan-400"
+                href="#"
+              >
+                About
+              </a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a
+                className="duration-300 transition-all hover:text-cyan-400"
+                href="#"
+              >
+                Contact
+              </a>
             </li>
           </ul>
 

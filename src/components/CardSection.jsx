@@ -34,7 +34,10 @@ const cardsData = [
 
 const CardSection = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 container mx-auto p-4 py-10">
+    <section
+      id="card-section"
+      className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 container mx-auto p-4 py-10"
+    >
       {cardsData.map((card, index) => (
         <Card
           key={index}
